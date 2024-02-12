@@ -37,6 +37,7 @@ spec:
     metadata:
       labels:
         app: nginx
+        networking/allow-internet-egress: "true"
     spec:
       containers:
       - name: nginx
